@@ -15,7 +15,23 @@ The scripts performs the following functions:
 
 4. **Data export:** Filters successful estimations and saves the aggregated results to a CSV file.
 
-**The scripts**
+**Usage**
    
-   **_rtmin.R:_** Generates MTIN random variables. 
+ 1. Set your working directory to the folder containing the scripts.
+ 2. Update the file path in the write.csv function at the end of the script to your desired local directory.
+ 3. Run the relevant scripts.
+    
+(i) For ECME algorithm run **MTIN_VAR_ECME_sim.R**,
+
+(ii) For Bayesian MCMC run **MTIN_VAR_MCMC_sim.R**,
+
+(iii) For OLS using VAR package run **mtin_varp_ols_run.R**,
+
+(iv) For Bayesian VAR using BVAR package run **mtin_varp_bvar_run.R**, 
+
+(v) **Psi_boxplots_rcodes.R** gives the boxplots for $\mathbf{\Psi}-\mathbf{\hat{\Psi}}$, 
+
+(vi) **Omega_boxplots_rcodes.R** gives the boxplots for $\mathbf{\Omega}-\mathbf{\hat{\Omega}}$, 
+
+(vii) **Theta_boxplots_rcodes.R** gives the boxplots for $\theta-\hat{\theta}$. 
 
